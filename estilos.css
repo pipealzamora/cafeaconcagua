@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: radial-gradient(circle, green 0%, purple 20%, orange 100%);
+}
+
+.titulo-header{
+    color: rgb(243, 243, 243);
+    font-size: 45px;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.videocafe{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+video{
+    width: 50%;
+}
+
+.tostado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+.cafe1 , .cafe2{
+    margin: 1%;
+    border-radius: 1%;
+}
+
+/*Imagen retroforestación */
+.ambiental{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+}
+.forest{
+    width: 30%;
+}
+.info-vision h3{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   font-size: 35px
+}
+
+.texto-Mision{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    white-space:pre-wrap;
+    margin: 1%;
+}
+.texto-vision{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    white-space:pre-wrap;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.mapa{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
